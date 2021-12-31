@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>w3schools-HTML Introduction</title>
+</head>
+<body>
+  <div id="header" style="border: solid 1px black;">
+    <div id="brandicon" style="border-bottom: solid 1px black; padding: 0 10px 0 10px">
+        <div style="display: inline-block;">
+            <img id="brand-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png " style="height: 30px; padding: 6px; " />
+        </div>
+        <div style="display: inline-block; position: absolute; padding: 10px; font-size: larger">
+            THE WORLD'S LARGEST WEBDEVELOPER SITE
+        </div>
+
+
+    </div>
+    <div id="nav-bar" style="padding: 10px 0 10px 0; padding: 10px">
+        <nav>
+            <style>
+                #nav-bar a {
+                    font-size: 25px;
+                    color: black;
+                    padding-right: 15px;
+                }
+            </style>
+            <a href="https://www.w3schools.com/html/default.asp "> HTML</a>&emsp;
+            <a href="https://www.w3schools.com/css/default.asp ">CSS</a>&emsp;
+            <a href="https://www.w3schools.com/js/default.asp ">JAVASCRIPT</a>&emsp;
+            <a href="https://www.w3schools.com/python/default.asp ">PYTHON</a>
+        </nav>
+    </div>
+</div>
+<div id=" website- content " style="border-bottom: solid 1px black; border-left: solid 1px black; border-right: solid 1px black; padding: 10px ">
+  <div id="html-introduction ">
+
+<h1>HTML Introduction</h1>
+<p>HTML is the standard markup language for creating Web pages.</p>
+<ol>
+<li>What is HTML</li>
+<li>What is HTML element</li>
+<li>Web Browsers</li>
+</ol>
+</div>
+<h2> What Is HTML?</h2>
+<ul>
+<li>HTML stands for Hyper Text Markup Language</li>
+<li>HTML is the standard markup language for creating Web pages.</li>
+<li> HTML describes the structure of Web page</li>
+<li>HTML consist of series of element</li>
+<li>HTML elements tells the browser how to display the content</li>
+<li>HTML elements lable pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+</li>
+</ul>
+
+
+<h2>What is an HTML Element?</h2>
+
+<p>An HTML is defined by a start tag, some content, and an end tag:
+<br></br>
+<span style="color: blue;">&nbsp;&nbsp;<</span><span style="color: maroon;">tagname</span><span style="color: blue;">></span>Content goes here...<span style="color: blue;"><</span><span style="color: maroon;">/tagname</span><span style="color: blue;">></span>
+
+</p>
+
+<small>The HTML element is everywhere from the start tag to the end tag:</small>
+
+<br><br>
+<span style="color: blue;">&nbsp;&nbsp;<</span><span style="color: maroon;">h1</span><span style="color: blue;">></span>My First Heading<span style="color: blue;"><</span><span style="color: maroon;">/h1</span><span style="color: blue;">></span>
+</br></br>
+
+<span style="color: blue;">&nbsp;&nbsp;<</span><span style="color: maroon;">p</span><span style="color: blue;">></span>My first paragraph.<span style="color: blue;"><</span><span style="color: maroon;">/p</span><span style="color: blue;">></span>
+<br>
+</br>
+<table id="tag_table">
+<style>
+table#tag_table {
+  font-family: arial, sans-serif;
+  border-collapse:collapse;
+  width:100%;
+  border:1px solid #ddd;
+}
+
+#tag_table td, th {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+ 
+}
+
+#tag_table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+  <tr>
+    <th>Start tag</th>
+    <th>Element Content</th>
+    <th>End tag</th>
+  </tr>
+  <tr>
+    <td>&lt;h1&gt;</td>
+    <td>My First Heading</td>
+    <td>&lt;/h1&gt;</td>
+  </tr>
+  <tr>
+    <td>&lt;p&gt;</td>
+    <td>My First Paragraph</td>
+    <td>&lt;/p&gt;</td>
+  </tr>
+  <tr>
+    <td>&lt;br&gt;</td>
+    <td>none</td>
+    <td>none</td>
+  </tr>
+</table>
+<h2>Web Browsers</h2>
+
+<p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+<p>A browser does not display the HTML tags, but uses them to determine how to display the document:
+</p>
+<p style="text-align: center ">
+<img src=https://www.w3schools.com/html/img_chrome.png>
+</p>
+<h2>Submit a Review</h2>
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="John">
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br></br>
+<div id="addCommentContainer">
+    <p>rate is 
+    <select>
+    <option>very good<option>
+    <option>good<option>
+    <option>bad<option>
+    <option>very bad<option>
+    </select> </p>
+    <form id="addCommentForm" method="post" action="xyz" >
+        <div>
+            <textarea name="body" id="body" cols="60" rows="5">Please add a review.</textarea>
+        <br>
+            <input type="submit" id="submit" value="Submit" />
+
+</br>
+
+</div>
+</body>
+
+</html>
